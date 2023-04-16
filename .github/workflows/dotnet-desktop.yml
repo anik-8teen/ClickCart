@@ -40,3 +40,13 @@ jobs:
         website-name: 'MyWebApp'
         app-pool: 'MyAppPool'
         iis-instance: 'localhost'
+
+    - name: Deploy database changes
+      run: |
+        cd ./DataAccessLayer
+        dotnet ef database update
+
+    - name: Run business logic tests
+      run: |
+        cd ./BusinessLogicLayer
+        dotnet test --configuration Release
