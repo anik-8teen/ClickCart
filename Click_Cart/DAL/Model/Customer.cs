@@ -8,6 +8,7 @@ namespace DAL.Model
 {
     public class Customer
     {
+      hello 
 
     }
 }
