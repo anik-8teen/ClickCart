@@ -1,0 +1,12 @@
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\DAL.dll.config
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\DAL.dll
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\DAL.pdb
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.dll
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.xml
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\obj\Debug\DAL.csproj.CopyComplete
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\obj\Debug\DAL.dll
+F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\DAL\obj\Debug\DAL.pdb

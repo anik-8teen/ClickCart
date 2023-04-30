@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.ModelA
 {
-    class Seller
+    public class Seller
     {
         
     [Key]
