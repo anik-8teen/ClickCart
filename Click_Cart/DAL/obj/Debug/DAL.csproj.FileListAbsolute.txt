@@ -1,0 +1,12 @@
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\DAL.dll.config
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\DAL.dll
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\DAL.pdb
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.dll
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.SqlServer.dll
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.xml
+Z:\git\ClickCart\Click_Cart\DAL\bin\Debug\EntityFramework.SqlServer.xml
+Z:\git\ClickCart\Click_Cart\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+Z:\git\ClickCart\Click_Cart\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+Z:\git\ClickCart\Click_Cart\DAL\obj\Debug\DAL.csproj.CopyComplete
+Z:\git\ClickCart\Click_Cart\DAL\obj\Debug\DAL.dll
+Z:\git\ClickCart\Click_Cart\DAL\obj\Debug\DAL.pdb
