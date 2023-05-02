@@ -12,18 +12,22 @@ namespace DAL.Models
     {
 
         [Key]
-        public int SellerId { get; set; }
-
-        [Required]
-        [Display(Name = "Company Name")]
+        public int Id { get; set; }
+        [Required]  
         public string CompanyName { get; set; }
 
         [Required]
-        [Display(Name = "Contact")]
         public string SellerContact { get; set; }
 
-        
-        
+        public virtual ICollection<Product> Products { get; set; }
+        public Seller()
+        {
+
+            Products = new List<Product>();
+        }
+
+
+
 
     }
 }

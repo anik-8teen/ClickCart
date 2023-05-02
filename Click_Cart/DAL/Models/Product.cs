@@ -8,36 +8,39 @@ namespace DAL.Models
     public class Product
     {
         [Key]
-        public int ProductId { get; set; }
+        public int Id { get; set; }
 
         [Required]
-        [Display(Name = "Product Name")]
         public string ProductName { get; set; }
 
         [Required]
-        [DataType(DataType.Currency)]
+      
         public decimal Price { get; set; }
 
         [Required]
-        [Display(Name = "Category")]
+        [ForeignKey("CategoryId")]
         public int CategoryId { get; set; }
 
-        [ForeignKey("CategoryId")]
+        
         public virtual Category Category { get; set; }
 
         [Required]
-        [Display(Name = "Seller")]
+        [ForeignKey("SellerId")]
         public int SellerId { get; set; }
 
-        [ForeignKey("SellerId")]
+       
         public virtual Seller Seller { get; set; }
+        public virtual ICollection<Review> Reviews { get; set; }
+        public virtual ICollection<Wishlist> Wishlists { get; set; }
 
-        public virtual ICollection<Seller> Sellers { get; set; }
+
         public Product()
         {
-
-            Sellers = new List<Seller>();
+            Reviews = new List<Review>();
+            Wishlists = new List<Wishlist>();
         }
+
+        
 
 
     }

@@ -11,15 +11,17 @@ namespace DAL.Models
     public class Wishlist
     {
         [Key]
-        public int WishlistId { get; set; }
+        public int Id { get; set; }
 
         [ForeignKey("Product")]
         public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
 
         [ForeignKey("UserId")]
         public int UserId { get; set; }
-        public User User { get; set; }
+        public virtual User User { get; set; }
+
+       
     }
 
 }

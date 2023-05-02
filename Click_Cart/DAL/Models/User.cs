@@ -10,7 +10,7 @@ namespace DAL.Models
     public class User
     {
         [Key]
-        public int UserId { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
@@ -19,10 +19,12 @@ namespace DAL.Models
 
         public virtual ICollection<Wishlist> Wishlists { get; set; }
         public virtual ICollection<Review> Reviews { get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
         public User()
         {
             Wishlists = new List<Wishlist>();
             Reviews = new List<Review>();
+            Orders= new List<Order>();
 
 
         }
