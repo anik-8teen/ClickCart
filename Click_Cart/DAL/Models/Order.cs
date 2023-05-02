@@ -18,5 +18,11 @@ namespace DAL.Models
         public DateTime DateOrdered { get; set; }
 
         public virtual Customer Customer { get; set; }
+
+        public virtual ICollection<OrderDetail> OrderDetails { get; set; }
+        public Order ()
+        {
+            OrderDetails = new List<OrderDetail>();
+        }
     }
 }

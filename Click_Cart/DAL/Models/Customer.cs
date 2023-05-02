@@ -14,5 +14,6 @@ namespace DAL.Models
         public string Name { get; set; }
         public string PaymentInfo { get; set; }
         public string ShippingAddress { get; set; }
+       
     }
 }
