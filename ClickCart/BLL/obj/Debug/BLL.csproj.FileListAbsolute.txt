@@ -1,0 +1,12 @@
+Z:\zkitty\ClickCart\BLL\bin\Debug\BLL.dll
+Z:\zkitty\ClickCart\BLL\bin\Debug\BLL.pdb
+Z:\zkitty\ClickCart\BLL\bin\Debug\DAL.dll
+Z:\zkitty\ClickCart\BLL\bin\Debug\EntityFramework.dll
+Z:\zkitty\ClickCart\BLL\bin\Debug\DAL.pdb
+Z:\zkitty\ClickCart\BLL\bin\Debug\DAL.dll.config
+Z:\zkitty\ClickCart\BLL\bin\Debug\EntityFramework.xml
+Z:\zkitty\ClickCart\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+Z:\zkitty\ClickCart\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Z:\zkitty\ClickCart\BLL\obj\Debug\BLL.csproj.CopyComplete
+Z:\zkitty\ClickCart\BLL\obj\Debug\BLL.dll
+Z:\zkitty\ClickCart\BLL\obj\Debug\BLL.pdb
