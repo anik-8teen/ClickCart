@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CAA22723-300D-44FE-BD1F-BDA4DEAD404D}</ProjectGuid>
+    <ProjectGuid>{02FF7401-70FA-440B-AD55-6254AF6BD216}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -52,16 +52,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClickCart.cs" />
-    <Compile Include="Interfaces\InRepocs.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="ModelA\Category.cs" />
-    <Compile Include="ModelA\Product.cs" />
-    <Compile Include="ModelA\Seller.cs" />
+    <Compile Include="Interface\IRepo.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Review.cs" />
+    <Compile Include="Models\Seller.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Wishlist.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RepoA\CategoryRepo.cs" />
-    <Compile Include="RepoA\ProductRepo.cs" />
-    <Compile Include="RepoA\Repo.cs" />
-    <Compile Include="RepoA\SellerRepo.cs" />
+    <Compile Include="Repos\CustomerRepo.cs" />
+    <Compile Include="Repos\Repo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
