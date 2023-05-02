@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.RepoA
+namespace DAL.Repos
 {
-   public class Repo
+    internal class Repo
     {
-        internal ClickCart db;
-        internal Repo()
+        protected ClickCart db;
+
+        protected Repo()
         {
             db = new ClickCart();
         }

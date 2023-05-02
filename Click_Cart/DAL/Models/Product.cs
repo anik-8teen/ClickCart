@@ -1,7 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using DAL.Models;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DAL.ModelA
+namespace DAL.Models
 {
     public class Product
     {
@@ -29,6 +31,14 @@ namespace DAL.ModelA
 
         [ForeignKey("SellerId")]
         public virtual Seller Seller { get; set; }
-  
+
+        public virtual ICollection<Seller> Sellers { get; set; }
+        public Product()
+        {
+
+            Sellers = new List<Seller>();
+        }
+
+
     }
 }

@@ -4,13 +4,14 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
-namespace DAL.ModelA
+namespace DAL.Models
 {
     public class Seller
     {
-        
-    [Key]
+
+        [Key]
         public int SellerId { get; set; }
 
         [Required]
@@ -21,9 +22,8 @@ namespace DAL.ModelA
         [Display(Name = "Contact")]
         public string SellerContact { get; set; }
 
-        public virtual ICollection<Product> Products { get; set; }
-    
-}
+        
+        
 
-   
+    }
 }

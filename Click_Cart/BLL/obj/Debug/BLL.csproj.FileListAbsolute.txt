@@ -1,6 +1,12 @@
-F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\BLL\bin\Debug\BLL.dll
-F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\BLL\bin\Debug\BLL.pdb
-F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\BLL\obj\Debug\BLL.dll
-F:\CLASS LECTURE\SEMESTER 10 (SPRING-23)\ADVANCE .NET\ClickCart\Click_Cart\BLL\obj\Debug\BLL.pdb
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\BLL.dll
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\BLL.pdb
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\DAL.dll
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\DAL.pdb
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\DAL.dll.config
+Z:\git\ClickCart\Click_Cart\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+Z:\git\ClickCart\Click_Cart\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+Z:\git\ClickCart\Click_Cart\BLL\obj\Debug\BLL.csproj.CopyComplete
+Z:\git\ClickCart\Click_Cart\BLL\obj\Debug\BLL.dll
+Z:\git\ClickCart\Click_Cart\BLL\obj\Debug\BLL.pdb
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\EntityFramework.dll
+Z:\git\ClickCart\Click_Cart\BLL\bin\Debug\EntityFramework.xml

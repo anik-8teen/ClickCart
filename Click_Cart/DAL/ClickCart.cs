@@ -1,4 +1,4 @@
-﻿using DAL.ModelA;
+﻿using DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class ClickCart:DbContext
+    public class ClickCart : DbContext
     {
-        public DbSet<Seller> Sellers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+
+        
+
     }
 }
